@@ -1,0 +1,36 @@
+body
+{
+  background-color: #ffa31a;
+}
+#start_message
+{
+  font-family: Arial;
+  font-size: 100px;
+  color: white;
+   text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+  text-align: center;
+  margin-top: 20%;
+}
+
+#start
+{
+  display: inline-block;
+  margin-top: 5%;
+  margin-left: 42%;
+  margin-right: 50%;
+
+}
+button
+{
+  background-color: white;
+   border-radius: 25px;
+    font-size: 50px;
+    padding: 10px;
+    color: grey;
+}
+
+button:hover
+{
+  background-color: #4cff24;
+  color:white;
+}

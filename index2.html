@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+  <link rel="stylesheet" type="text/css" href="mystyle2.css">
+  <script type="text/javascript" src="myscript2.js"></script>
+</head>
+  <body id="qbody" onload="nextQues()">
+    <p id="try">RIGHT ANSWER!</p>
+    <p id="try2">WRONG ANSWER!</p>
+<div id="question">
+Your Questions.
+</div>
+<div id="options">
+  <button type="button" id="button2" name="buttona"  onclick="checkAns(this.id)" >Option A</button>
+  <button type="button" id="button3" name="buttona"  onclick="checkAns(this.id)">Option B</button><br></br>
+  <button type="button" id="button4" name="buttona"  onclick="checkAns(this.id)">Option C</button>
+  <button type="button" id="button5"  name="buttona"  onclick="checkAns(this.id)">Option D</button>
+</div>
+
+<div id="choices">
+  <button type="button" id="submit" name="submit" onclick="checkAns2()">SUBMIT</button>
+  <button type="button" id="next"  name="next" onclick="nextQues()">NEXT</button>
+</div>
+<div id="scores">
+  Your Total Score is : <p id="scoretotal"></p>
+</div>
+<div id="playagain">
+  <button type="button" id="playagainbutton" onclick="playa()">PLAY AGAIN</button>
+</div>
+  </body>
+</html>
